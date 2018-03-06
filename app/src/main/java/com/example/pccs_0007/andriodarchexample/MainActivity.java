@@ -61,8 +61,9 @@ public class MainActivity extends AppCompatActivity implements View.OnLongClickL
         });
 
 
-        test.setVisibility(View.GONE);
+
         test = findViewById(R.id.test_button);
+        test.setVisibility(View.GONE);
         test.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

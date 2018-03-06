@@ -24,5 +24,9 @@
         android:layout_alignParentRight="true"
         android:layout_below="@+id/itemTextView" />
 
-
+    <View android:layout_width="match_parent"
+        android:layout_height="0.6dp"
+        android:background="#ddd"
+        android:layout_below="@+id/dateTextView"
+        android:layout_marginTop="12dp"></View>
 </RelativeLayout>
